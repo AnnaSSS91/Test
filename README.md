@@ -65,7 +65,38 @@ test program
 				        <p><b>Сегодня бесплатная доставка по Саратову!</b></p>
 				    </div>
 				</div>	
-			</div>	
+			</div>
+			<div id="right">
+				<div id="article">
+					<h1>Магазин цветов онлайн</h1>
+					<p><b>Мы предалагаем цветочную продукцию по доступным ценам и на любой вкус</b></p>
+					<p>Мы занимаемся цветами уже более 10 лет и теперь открыли магазин и в интернете.</p>
+					<p>Посмотреть все букеты Вы можете <a href="services.html">здесь</a>.</p>
+					</div>	
+			</div>
+				
+			<div id="gallery">
+                <div id="panel">
+                     <img id="largeImage" src="images/image_03_large.jpg" />
+                     <div id="description">Букет "Нежность" всего за 1000 руб!</div>
+                </div>
+                <div id="thumbs">
+                <img src="images/image_02_thumb.jpg" alt="Букет из 101 розы всего за 3000 руб!" /><br>
+                <img src="images/image_03_thumb.jpg" alt="Букет &laquoНежность&raquo 1000 руб!" /><br>
+                <img src="images/image_04_thumb.jpg" alt="Букет &laquoИрисы&raquo 1200 руб" /><br>
+                <img src="images/image_05_thumb.jpg" alt="Букет &laquoЛетний&raquo 1500 руб" />
+                </div>
+            </div>	
+	  
+    <script>
+    $('#thumbs').delegate('img','click', function(){
+	$('#largeImage').attr('src',$(this).attr('src').replace('thumb','large'));
+	$('#description').html($(this).attr('alt'));
+    });
+    </script>	
+				
+			<div class="clear"></div>	
+		</div>
    </div>	
    </body>
 </html>
