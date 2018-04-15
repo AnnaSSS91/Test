@@ -36,6 +36,10 @@ test program
 		        </tr>
 			</table>
 		</div>	
+		
+		<div id="logo">
+		    <img src="images/logo.png" alt="Лого"/>
+		</div>
    </div>	
    </body>
 </html>
