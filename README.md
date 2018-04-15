@@ -40,6 +40,32 @@ test program
 		<div id="logo">
 		    <img src="images/logo.png" alt="Лого"/>
 		</div>
+		<div id="content">
+		    <div id="left">
+                <div id="news">			    
+				    <h2>Новости</h2>
+				    <div class="new">
+					    <p class="date">1 апреля 2017</p>
+				        <p><b>Мы открылись!</b><br />адрес можно посмотреть на странице контактов.</p>
+				    </div>
+			        <div class="new">
+					    <p class="date">2 апреля 2017</p>
+				        <p><b>Теперь мы работаем круглосуточно</b><br />ради Вашего удобства.</p>
+				    </div>
+				    <div class="new">
+					    <p class="date">3 апреля 2017</p>
+				        <p><b>Специальное предложение</b><br />на букет из 101 розы!</p>
+				    </div> 
+				    <div class="new">
+					    <p class="date">4 апреля 2017</p>
+				        <p><b>Скидка 15% на следующий заказ</b><br />при покупке букета от 2000 руб.</p>
+				    </div>
+					<div class="new">
+					    <p class="date">5 апреля 2017</p>
+				        <p><b>Сегодня бесплатная доставка по Саратову!</b></p>
+				    </div>
+				</div>	
+			</div>	
    </div>	
    </body>
 </html>
